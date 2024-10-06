@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:shortcutShortLabel="@string/message_long"
+        android:shortcutLongLabel="@string/message_short"
+        android:shortcutDisabledMessage="@string/app_name">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.friendapp"
+            android:targetClass="com.example.friendapp.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.navigation" />
+        <capability-binding android:key="actions.intent.action.VIEW" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="activity_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/act2_long"
+        android:shortcutLongLabel="@string/act2_short">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.example.friendapp"
+        android:targetClass="com.example.friendapp.MainActivity2" />
+    <categories android:name="android.shortcuts.conversation" />
+        <capability-binding android:key="action.intent.CREATE_MESSAGE"/>
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

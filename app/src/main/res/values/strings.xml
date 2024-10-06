@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">FriendApp</string>
     <string name="loading">loading</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="secondFragmentText">Hello from second Fragment</string>
+    <string name="firstFragment">Hello from first fragment</string>
+    <string name="message_short">Main Activity</string>
+    <string name="message_long">Main</string>
+    <string name="act2_short">Second</string>
+    <string name="act2_long">Second Activity</string>
+    <string name="test">test</string>
+    <string name="act2_id">act2Id</string>
+    <string name="playlistUrl">Playlist URL</string>
+    <string name="clonePlaylist">Clone Playlist</string>
+    <string name="playlistName">Playlist Name</string>
+    <string name="createPlaylist">Create Playlist</string>
+    <string name="launchDialog">Launch Dialog</string>
 </resources>
